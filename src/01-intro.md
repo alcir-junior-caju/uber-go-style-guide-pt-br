@@ -2,7 +2,7 @@
 
 Estilos são as convenções que governam nosso código. O termo estilo é um pouco enganoso, pois essas convenções abrangem muito mais do que apenas a formatação de arquivos de origem — gofmt cuida disso para nós.
 
-O objetivo deste guia é gerenciar essa complexidade descrevendo detalhadamente os Dos and Don'ts de escrever código Go na Uber. Essas regras existem para manter a base de código gerenciável, permitindo ainda que os engenheiros usem os recursos da linguagem Go de maneira produtiva.
+O objetivo deste guia é gerenciar essa complexidade descrevendo detalhadamente os (O que fazer e o que não fazer) de escrever código Go na Uber. Essas regras existem para manter a base de código gerenciável, permitindo ainda que os engenheiros usem os recursos da linguagem Go de maneira produtiva.
 
 Este guia foi originalmente criado por [Prashant Varanasi] e [Simon Newton] como uma maneira de atualizar alguns colegas sobre o uso do Go. Ao longo dos anos, ele foi modificado com base no feedback de outros.
 
