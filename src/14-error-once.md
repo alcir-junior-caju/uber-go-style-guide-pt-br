@@ -13,7 +13,7 @@ Isso inclui, mas não está limitado a:
   registrando o erro e degradando graciosamente
 - se o erro representa uma condição de falha específica do domínio,
   retornando um erro bem definido
-- retornando o erro, seja [encapsulado](error-wrap.md) ou de forma direta
+- retornando o erro, seja [encapsulado](12-error-wrap.md) ou de forma direta
 
 Independentemente de como o chamador lida com o erro,
 ele deve geralmente lidar com cada erro apenas uma vez.
