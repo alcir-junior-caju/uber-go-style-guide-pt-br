@@ -11,7 +11,7 @@ Considere o seguinte antes de escolher a opção mais adequada para o seu caso d
   Para o primeiro caso, podemos usar [`errors.New`], mas para o segundo devemos
   usar [`fmt.Errorf`] ou um tipo de erro personalizado.
 - Estamos propagando um novo erro retornado por uma função downstream?
-  Se sim, consulte a [seção sobre encapsulamento de erros](error-wrap.md).
+  Se sim, consulte a [seção sobre encapsulamento de erros](12-error-wrap.md).
 
 [`errors.Is`]: https://golang.org/pkg/errors/#Is
 [`errors.As`]: https://golang.org/pkg/errors/#As

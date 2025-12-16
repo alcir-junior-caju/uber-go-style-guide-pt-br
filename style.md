@@ -1,6 +1,3 @@
-Este repositório contém o [Guia de Estilo do Go da Uber](style.md), que documenta
-padrões e convenções usados no código Go da Uber em Português BR.
-
 # Guia de Estilo Uber Go
 
 - [Introdução](src/01-intro.md)
