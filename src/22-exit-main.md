@@ -1,7 +1,7 @@
 # Sair no Main
 
 Programas Go utilizam [`os.Exit`] ou [`log.Fatal*`] para sair imediatamente. (Entrar em pânico
-não é uma boa maneira de encerrar programas, por favor [não entre em pânico](panic.md).)
+não é uma boa maneira de encerrar programas, por favor [não entre em pânico](16-panic.md).)
 
   [`os.Exit`]: https://golang.org/pkg/os/#Exit
   [`log.Fatal*`]: https://golang.org/pkg/log/#Fatal
