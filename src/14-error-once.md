@@ -67,7 +67,7 @@ if err != nil {
 **Bom**: Registre o erro e degrade graciosamente
 
 Se a operação não for estritamente necessária,
-podemos fornecer uma experiência degradada, mas sem quebrar
+podemos fornecer uma experiência degradada, porém sem quebrar, 
 ao nos recuperarmos dela.
 
 </td><td>
