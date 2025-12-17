@@ -70,7 +70,7 @@ recursos usados pelo worker.
 
 Observe que você deve usar `WaitGroup`s se o worker gerenciar várias
 goroutines.
-Veja [Espere as goroutines terminarem](goroutine-exit.md).
+Veja [Espere as goroutines terminarem](26-goroutine-exit.md).
 
 </td></tr>
 </tbody></table>
