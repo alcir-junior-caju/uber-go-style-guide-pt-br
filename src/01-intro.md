@@ -12,7 +12,7 @@ Este guia foi originalmente criado por [Prashant Varanasi] e [Simon Newton] como
 Este documento descreve convenções idiomáticas no código Go que seguimos na Uber. Muitas dessas são diretrizes gerais para Go, enquanto outras se baseiam em recursos externos:
 
 1. [Guia Efetivo Go](https://golang.org/doc/effective_go.html)
-2. [Erros Comuns em Go](https://github.com/golang/go/wiki/CommonMistakes)
+2. [Erros Comuns em Go](https://go.dev/wiki/CommonMistakes)
 3. [Comentários para Revisão de Código em Go](https://github.com/golang/go/wiki/CodeReviewComments)
 
 Temos como objetivo que os exemplos de código sejam precisos para as duas versões menores mais recentes das [versões](https://go.dev/doc/devel/release) do Go.
