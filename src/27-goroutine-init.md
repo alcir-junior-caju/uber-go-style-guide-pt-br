@@ -1,7 +1,7 @@
 # Sem goroutines em `init()`
 
 Funções `init()` não devem criar goroutines.
-Veja também [Evite init()](init.md).
+Veja também [Evite init()](21-init.md).
 
 Se um pacote precisa de uma goroutine em segundo plano,
 ele deve expor um objeto responsável por gerenciar a vida útil da goroutine.
