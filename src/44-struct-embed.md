@@ -47,7 +47,7 @@ A incorporação **não deve**:
   da incorporação do tipo interno.
 - Expor tipos não exportados.
 - Afetar a semântica de cópia dos tipos externos.
-- Alterar a API ou semântica de tipo do tipo externo.
+- Alterar a API ou semântica do tipo externo.
 - Incorporar uma forma não canônica do tipo interno.
 - Expor detalhes de implementação do tipo externo.
 - Permitir que os usuários observem ou controlem detalhes internos do tipo.
