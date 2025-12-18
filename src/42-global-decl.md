@@ -17,7 +17,8 @@ func F() string { return "A" }
 
 ```go
 var _s = F()
-// Já que F já declara que retorna uma string, não precisamos especificar o tipo novamente.
+// Já que F já declara que retorna uma string, não precisamos especificar
+// o tipo novamente.
 
 func F() string { return "A" }
 ```
