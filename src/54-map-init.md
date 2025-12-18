@@ -44,7 +44,7 @@ Declaração e inicialização são visualmente distintas.
 
 Sempre que possível, forneça dicas de capacidade ao inicializar
 mapas com `make()`. Veja
-[Especificando Dicas de Capacidade para Mapas](container-capacity.md#specifying-map-capacity-hints)
+[Especificando Dicas de Capacidade para Mapas](31-container-capacity.md#specifying-map-capacity-hints)
 para mais informações.
 
 Por outro lado, se o mapa contiver um conjunto fixo de elementos,
