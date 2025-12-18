@@ -33,7 +33,6 @@ funcionalidade de maneira semanticamente apropriada. Deve fazer isso sem ter
 efeitos adversos visíveis para o usuário (veja também: [Evite Incorporar Tipos em Estruturas Públicas](19-embed-public.md).
 
 Exceção: Mutexes não devem ser incorporados, mesmo em tipos não exportados. Veja também: [Mutexes com Valor Zero são Válidos](05-mutex-zero-value.md).
-.
 
   [Evite Incorporar Tipos em Estruturas Públicas]: #evite-incorporar-tipos-em-estruturas-públicas
   [Mutexes com Valor Zero são Válidos]: #mutexes-com-valor-zero-são-válidos
