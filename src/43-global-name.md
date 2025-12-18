@@ -47,4 +47,4 @@ const (
 </tbody></table>
 
 **Exceção**: Valores de erro não exportados podem usar o prefixo `err` sem o sublinhado.
-Consulte [Nomeação de Erros](error-name.md).
+Consulte [Nomeação de Erros](13-error-name.md).
