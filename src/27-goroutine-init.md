@@ -1,7 +1,7 @@
 # Sem goroutines em `init()`
 
 Funções `init()` não devem criar goroutines.
-Veja também [Evite init()](init.md).
+Veja também [Evite init()](21-init.md).
 
 Se um pacote precisa de uma goroutine em segundo plano,
 ele deve expor um objeto responsável por gerenciar a vida útil da goroutine.
@@ -70,7 +70,7 @@ recursos usados pelo worker.
 
 Observe que você deve usar `WaitGroup`s se o worker gerenciar várias
 goroutines.
-Veja [Espere as goroutines terminarem](goroutine-exit.md).
+Veja [Espere as goroutines terminarem](26-goroutine-exit.md).
 
 </td></tr>
 </tbody></table>

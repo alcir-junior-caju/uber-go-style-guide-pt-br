@@ -2,7 +2,7 @@
 
 Para valores de erro armazenados como variáveis globais,
 use o prefixo `Err` ou `err` dependendo se eles são exportados.
-Esta orientação substitui a [Prefixo para Globais Não Exportadas com _](global-name.md).
+Esta orientação substitui a [Prefixo para Globais Não Exportadas com _](43-global-name.md).
 
 ```go
 var (
