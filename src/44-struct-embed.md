@@ -97,7 +97,8 @@ func (w *countingWriteCloser) Write(bs []byte) (int, error) {
 
 ```go
 type Book struct {
-  // Ruim: a mudança do ponteiro afeta a utilidade do valor zero
+  // Ruim: a mudança do ponteiro afeta a
+  // utilidade do valor zero
   io.ReadWriter
 
   // outros campos
