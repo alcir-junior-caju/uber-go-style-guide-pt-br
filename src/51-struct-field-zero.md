@@ -32,7 +32,7 @@ user := User{
 Isso ajuda a reduzir o ruído para os leitores, omitindo valores que são padrão naquele contexto. Somente valores significativos são especificados.
 
 Inclua valores zero onde os nomes dos campos fornecem contexto significativo. Por exemplo,
-os casos de teste em [Tabelas de Teste](test-table.md) podem se beneficiar dos nomes dos campos
+os casos de teste em [Tabelas de Teste](57-test-table.md) podem se beneficiar dos nomes dos campos
 mesmo quando têm valor zero.
 
 ```go
