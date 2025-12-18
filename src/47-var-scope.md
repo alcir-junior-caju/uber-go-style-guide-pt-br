@@ -1,6 +1,6 @@
 # Reduza o Escopo de Variáveis
 
-Sempre que possível, reduza o escopo das variáveis. Não reduza o escopo se isso entrar em conflito com [Reduzir o Aninhamento](nest-less.md).
+Sempre que possível, reduza o escopo das variáveis. Não reduza o escopo se isso entrar em conflito com [Reduzir o Aninhamento](40-nest-less.md).
 
 <table>
 <thead><tr><th>Ruim</th><th>Bom</th></tr></thead>
