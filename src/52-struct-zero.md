@@ -22,8 +22,7 @@ var user User
 </tbody></table>
 
 Isso diferencia estruturas com valores zero daquelas com campos não nulos
-de maneira semelhante à distinção criada para [inicialização de mapas], e coincide com a forma
-como preferimos [declarar slices vazias].
+de maneira semelhante à distinção criada para [inicialização de mapas](54-map-init.md), e coincide com a forma
+como preferimos [declarar fatias vazias].
 
-  [inicialização de mapas]: #inicializando-mapas
-  [declarar slices vazias]: https://github.com/golang/go/wiki/CodeReviewComments#declaring-empty-slices
+  [declarar fatias vazias]: https://go.dev/wiki/CodeReviewComments#declaring-empty-slices

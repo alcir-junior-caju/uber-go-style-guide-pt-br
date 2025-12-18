@@ -1,4 +1,4 @@
-# Use Raw String Literals to Avoid Escaping
+# Use Raw String Literals Para Evitar Sequências de Escape
 
 Go suporta [literais de string "raw"](https://golang.org/ref/spec#raw_string_lit),
 que podem abranger várias linhas e incluir aspas. Use-as para evitar

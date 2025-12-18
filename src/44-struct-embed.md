@@ -30,9 +30,9 @@ type Client struct {
 
 A incorporação deve fornecer benefícios tangíveis, como adicionar ou aprimorar
 funcionalidade de maneira semanticamente apropriada. Deve fazer isso sem ter
-efeitos adversos visíveis para o usuário (veja também: [Evite Incorporar Tipos em Estruturas Públicas]).
+efeitos adversos visíveis para o usuário (veja também: [Evite Incorporar Tipos em Estruturas Públicas](19-embed-public.md).
 
-Exceção: Mutexes não devem ser incorporados, mesmo em tipos não exportados. Veja também: [Mutexes com Valor Zero são Válidos].
+Exceção: Mutexes não devem ser incorporados, mesmo em tipos não exportados. Veja também: [Mutexes com Valor Zero são Válidos](05-mutex-zero-value.md).
 
   [Evite Incorporar Tipos em Estruturas Públicas]: #evite-incorporar-tipos-em-estruturas-públicas
   [Mutexes com Valor Zero são Válidos]: #mutexes-com-valor-zero-são-válidos
@@ -47,7 +47,7 @@ A incorporação **não deve**:
   da incorporação do tipo interno.
 - Expor tipos não exportados.
 - Afetar a semântica de cópia dos tipos externos.
-- Alterar a API ou semântica de tipo do tipo externo.
+- Alterar a API ou semântica do tipo externo.
 - Incorporar uma forma não canônica do tipo interno.
 - Expor detalhes de implementação do tipo externo.
 - Permitir que os usuários observem ou controlem detalhes internos do tipo.
@@ -97,7 +97,8 @@ func (w *countingWriteCloser) Write(bs []byte) (int, error) {
 
 ```go
 type Book struct {
-  // Ruim: a mudança do ponteiro afeta a utilidade do valor zero
+  // Ruim: a mudança do ponteiro afeta a
+  // utilidade do valor zero
   io.ReadWriter
 
   // outros campos

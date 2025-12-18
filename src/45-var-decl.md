@@ -20,7 +20,7 @@ s := "foo"
 </td></tr>
 </tbody></table>
 
-No entanto, há casos em que o valor padrão é mais claro quando a palavra-chave `var` é utilizada. Por exemplo, [Declarando Fatias Vazias].
+No entanto, há casos em que o valor padrão é mais claro quando a palavra-chave `var` é utilizada. Por exemplo, [Declarando Fatias Vazias](https://go.dev/wiki/CodeReviewComments#declaring-empty-slices).
 
   [Declarando Fatias Vazias]: https://github.com/golang/go/wiki/CodeReviewComments#declaring-empty-slices
 
