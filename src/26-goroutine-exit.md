@@ -5,17 +5,13 @@ Dada uma goroutine iniciada pelo sistema, deve haver uma maneira de aguardar a s
 - Use um `sync.WaitGroup`.
   Faça isso se houver várias goroutines das quais você deseja aguardar a conclusão:
 
-    ```go
+ ```go
     var wg sync.WaitGroup
     for i := 0; i < N; i++ {
-      wg.Add(1)
-      go func() {
-        defer wg.Done()
-        // ...
-      }()
+      wg.Go(...)
     }
 
-    // Para aguardar todas finalizarem:
+    // To wait for all to finish:
     wg.Wait()
     ```
 
