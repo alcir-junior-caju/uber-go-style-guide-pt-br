@@ -8,11 +8,7 @@ Dada uma goroutine iniciada pelo sistema, deve haver uma maneira de aguardar a s
     ```go
     var wg sync.WaitGroup
     for i := 0; i < N; i++ {
-      wg.Add(1)
-      go func() {
-        defer wg.Done()
-        // ...
-      }()
+      wg.Go(...)
     }
 
     // Para aguardar todas finalizarem:
